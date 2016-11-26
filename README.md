@@ -1,27 +1,30 @@
-# etris
-## Embeddable Tetris Engine
+# etris - Embeddable Tetris Engine
 
-Use the embeddable Tetris gaming engine to add a game wherever one is needed, there is always space for Tetris.
+Use the embeddable Tetris gaming engine to add a game wherever one is needed, there is always space left for Tetris :)
 
-It has been designed to be really easy to use and integrate. Just implement one or two function hooks, user input and timer ticks logic, and your done!
+It has been designed to be really easy to use and integrate. Just implement one or two function hooks, user input and timer ticks logic, and you're done!
 
-### Status
+## Status
 
 Stable. Is running on low-end ARM Cortex-M3 devices as well as high-end x86 workstations.
 
 Was originally hosted on [https://code.google.com/p/etris/] and haven't been touched since Jul 2, 2012.
 
-### Credits
+## Credits
 
-Credis is written and maintained by Jonas Romfelt simply because it is fun.  
+etris is written and maintained by Jonas Romfelt simply because it is fun.  
 
-## Basic game example using SDL
+# Examples
+
+## Playable demo using SDL
 
 Included for demonstration purposes is a playable Tetris game using SDL as back-end for screen drawing, font rendering and user input event handling.
 
 ![etris SDL screen shot](https://github.com/romfelt/etris/raw/master/img/etris-sdl.png "etris")
 
-The intention is to provide a simple example that could be used as template for new users. In most examples error handling has been left out for simplicity.
+## Basic game template
+
+Below a simple example that could be used as template for new users. In most examples error handling has been left out for simplicity. Just implement the hooks and play!
 
 ```c
 #include <stdio.h>
